@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
   gitBranch: main
+services:
+- serviceName: project.testrefdata.integrations:refD
+  packages:
+  - name: TestRefDataProject
+    version: "1.0"
+- serviceName: project.testrefdata.referencedata:refData1
+  packages:
+  - name: TestRefDataProject
+    version: "1.0"
